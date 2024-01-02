@@ -5,10 +5,10 @@ package mirza.dev.kotlinbasics
 fun main(){
     var i : Int = 0;
     while (i < 5){
-        i++
         if(i == 3){
             break
         }
         println(i)
+        i ++
     }
 }
